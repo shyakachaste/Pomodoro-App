@@ -10,6 +10,9 @@ You should have a beginner understanding of:
 - CSS
 - JavaScript
 
+**here is the live App:**
+- Visit [VS Code Download Page](https://pomodoroappworkshop.netlify.app/).
+
 # Setting up Your Coding Environment with VS Code
 
 VS Code is a powerful and popular code editor developed by Microsoft. It's highly recommended for its user-friendly interface and extensive capabilities.
