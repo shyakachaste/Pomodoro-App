@@ -1,0 +1,13 @@
+:root{
+    --primary-font: 'Open Sans', sans-serif;
+    --background: linear-gradient(
+        45deg,
+        #cad2c5, 
+        #84a98c 33%,
+        #52796f 66%,
+        #2f3e46 100% 
+    );
+    --button-color:#84a98c;
+    --button-hover-color:#52796f;
+    --secondary-color:#2f3e46;
+}
