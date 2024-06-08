@@ -10,8 +10,8 @@ You should have a beginner understanding of:
 - CSS
 - JavaScript
 
-**here is the live App:**
-- Visit [VS Code Download Page](https://pomodoroappworkshop.netlify.app/).
+**Here is a live App:**
+- Visit [online website](https://pomodoroappworkshop.netlify.app/).
 
 # Setting up Your Coding Environment with VS Code
 
