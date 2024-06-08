@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro App</h1>
+        <div class="timer">
+            <span id="time">25:00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="settings">
+            <label for="work-duration">Work Duration (minutes):</label>
+            <input type="number" id="work-duration" value="25" min="1">
+            <label for="break-duration">Break Duration (minutes):</label>
+            <input type="number" id="break-duration" value="5" min="1">
+        </div>
+        <div class="tasks">
+            <h2>Tasks</h2>
+            <input type="text" id="new-task" placeholder="Add a new task">
+            <button id="add-task">Add Task</button>
+            <ul id="task-list"></ul>
+        </div>
+        <div class="progress">
+            <h2>Progress</h2>
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
